@@ -6,3 +6,5 @@ query-filters:
       tags contain: actions
 paths:
   - '.github/workflows'
+queries:
+  - uses: ./codeql-custom-queries-javascript/improper-aws-credentials.ql
